@@ -87,3 +87,11 @@ h1 {
   font-size: 14px;
   padding: 0px;
 }
+
+.blogcardfooter {
+  max-height: 50px;
+}
+
+#search {
+  max-width: 250px;
+}
