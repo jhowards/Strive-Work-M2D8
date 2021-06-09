@@ -4,6 +4,11 @@ h1 {
 
 .col1 {
   color: white;
+  background-color: green;
+}
+.col2 {
+  background-color: rgba(14, 201, 226, 0.521);
+  font-weight: bold;
 }
 
 .ex1row1 {
@@ -19,4 +24,12 @@ h1 {
 .container-1 {
   height: 400px;
   border: 2px solid;
+}
+
+.btn1 {
+  width: 90%;
+}
+
+.btn2 {
+  width: 90%;
 }
