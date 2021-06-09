@@ -33,3 +33,29 @@ h1 {
 .btn2 {
   width: 90%;
 }
+
+.contback {
+  background-color: rgb(241, 241, 241);
+}
+.texted {
+  font-size: 14px;
+}
+
+.vieweditbtn {
+  height: 35px;
+  background-color: transparent;
+}
+
+.edit {
+  background-color: transparent;
+  width: 50px;
+  color: grey;
+  font-size: 14px;
+}
+
+.view {
+  background-color: transparent;
+  width: 60px;
+  color: grey;
+  font-size: 14px;
+}
