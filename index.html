@@ -68,20 +68,25 @@
     <div class="container ex1">
       <h1 class="text-center display-4 mt-3 mb-3">Exercise 1</h1>
 
-      <div class="container container-1" style="height: 400px">
-        <div class="row" style="height: 400px">
+      <div class="container container-box">
+        <div class="row">
           <div class="col-sm-6 col1">
-            <div class="container text-center">
-              <p>First Column</p>
-            </div>
+            <p>First Column</p>
           </div>
           <div class="col-sm-2 col2">
             <p>Second Column</p>
           </div>
-          <div class="col-sm-4 p-0 flex-row text-center">
-            <div class="ex1row1" style="height: 33%">Third Column Part 1</div>
-            <div class="ex1row2" style="height: 33%">Third Column Part 2</div>
-            <div class="ex1row3" style="height: 33%">Third Column Part 3</div>
+
+          <div class="col-sm-4 d-flex flex-column" style="height: 400px">
+            <div class="row ex1row1 flex-grow-1">
+              <p>Third Column Part 1</p>
+            </div>
+            <div class="row ex1row2 flex-grow-1">
+              <p>Third Column Part 2</p>
+            </div>
+            <div class="row ex1row3 flex-grow-1">
+              <p>Third Column Part 3</p>
+            </div>
           </div>
         </div>
       </div>
@@ -104,7 +109,9 @@
                   Email Support <br />
                   Help center access
                 </p>
-                <a href="#" class="btn btn-primary btn1">Sign up for free</a>
+                <a href="#" class="btn btn-outline-primary btn1 btn-lg"
+                  >Sign up for free</a
+                >
               </div>
             </div>
           </div>
@@ -121,7 +128,7 @@
                   Email Support <br />
                   Help center access
                 </p>
-                <a href="#" class="btn btn-primary btn1">Get started</a>
+                <a href="#" class="btn btn-primary btn1 btn-lg">Get started</a>
               </div>
             </div>
           </div>
@@ -138,7 +145,7 @@
                   Email Support <br />
                   Help center access
                 </p>
-                <a href="#" class="btn btn-primary btn1">Contact Us</a>
+                <a href="#" class="btn btn-primary btn1 btn-lg">Contact Us</a>
               </div>
             </div>
           </div>
