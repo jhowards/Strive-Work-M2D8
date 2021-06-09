@@ -89,9 +89,35 @@ h1 {
 }
 
 .blogcardfooter {
-  max-height: 50px;
+  min-height: 50px;
 }
 
 #search {
-  max-width: 250px;
+  max-width: 100%;
+}
+
+.oldernewerbtn {
+  background-color: transparent;
+}
+
+.older {
+  background-color: transparent;
+  min-width: 90px;
+  min-height: 38px;
+  color: grey;
+  font-size: 16px;
+  padding: 0px;
+  color: rgb(0, 119, 255);
+}
+
+.newer {
+  background-color: transparent;
+  min-width: 90px;
+  min-height: 38px;
+  color: grey;
+  font-size: 16px;
+  padding: 0px;
+}
+.btn-outline-secondary {
+  border-color: #dbdcdc;
 }
